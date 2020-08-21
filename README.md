@@ -16,7 +16,7 @@ Hopefully its pretty straight forward theres 1 mysql db, 1 spring boot web servi
 
 ## REST API
 
-The REST API is a spring boot project (created using spring initializr) run using a Tomcat server. The API is exposed (by default) on port 8080, it has full CRUD operations through its GET, POST, PUT and DELETE mappings
+The REST API is a spring boot project (created using spring initializr). The API is exposed (by default) on port 8080, it has full CRUD operations through its GET, POST, PUT and DELETE mappings
 
 ## UI
 
