@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   mysql:
-    image: mysql:latest
+    image: tobypeel/todoappdb
     restart: always
     environment:
       MYSQL_DATABASE: 'db'
@@ -12,9 +12,7 @@ services:
       # <Port exposed> : < MySQL Port running inside container>
       - '3306:3306'
     expose:
-      # Opens port 3306 on the container
       - '3306'
-      # Where our data will be persisted
     volumes:
       - my-db:/var/lib/mysql
 
